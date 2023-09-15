@@ -1,11 +1,10 @@
+import Header from './components/Header'
 
-function App() {
-  const name = 'Brad';
-  const x = true;
+const App = () => {
   return (
     <div className="container">
-      <h1>Hello From react</h1>
-      <h2>Hello {x ? 'Yes' : 'No'}</h2>
+      <h1>Hello From React</h1>
+      <Header />
     </div>
   );
 }
