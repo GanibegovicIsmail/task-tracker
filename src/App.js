@@ -33,9 +33,10 @@ const deleteTask = (id) =>{
   return (
     <div className="container">
       <Header />
-      <Tasks tasks={tasks} onDelete={deleteTask} />
+      <Tasks tasks={tasks} onDelete=
+      {deleteTask}/>
     </div>
-  );
+  )
 }
 
 Header.defaultProps = {
